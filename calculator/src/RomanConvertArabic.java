@@ -1,10 +1,10 @@
 class RomanConvertArabic {
-//    int[] DECIMAL = {100, 90, 50, 40, 10, 9, 5, 4, 1};
-//    String[] ROMAN = {"C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+    int[] DECIMAL = {100, 90, 50, 40, 10, 9, 5, 4, 1};
+    String[] ROMAN = {"C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
     int convertRomanToArabicNumbers(String line1) { // перевод римлян в арабов
         int number1 = 0;
-        int[] DECIMAL = {100, 90, 50, 40, 10, 9, 5, 4, 1};
-        String[] ROMAN = {"C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+//        int[] DECIMAL = {100, 90, 50, 40, 10, 9, 5, 4, 1};
+//        String[] ROMAN = {"C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
         for (int i = 0; i < DECIMAL.length; i++) {
             while (line1.indexOf(ROMAN[i]) == 0) {
                 number1 += DECIMAL[i];

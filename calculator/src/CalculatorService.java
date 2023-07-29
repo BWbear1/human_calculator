@@ -14,29 +14,34 @@ class CalculatorService {
         if (input.length < 2 || input.length > 3) {
             throw new RuntimeException(ERROR1);
         }
+
         String line1 = input[0];
         String operator = input[1];
         String line2 = input[2];
+
         Calculation calculiti = new Calculation();
         RomanConvertArabic romanConvertArabic1 = new RomanConvertArabic();
         ArabicConvertRoman arabicConvertRoman1 = new ArabicConvertRoman();
         RomanNumberValidationService validationRoman = new RomanNumberValidationService();
-        ArabicNumberValidationService  validationArabic = new ArabicNumberValidationService ();
-        boolean romanValidation1 = validationRoman.romanValidation(line1);
-        boolean romanValidation2 = validationRoman.romanValidation(line2);
-        boolean arabicValidation1 = validationArabic.arabicValidation(line1);
-        boolean arabicValidation2 = validationArabic.arabicValidation(line2);
-        if ((romanValidation1 && !arabicValidation1 && !romanValidation2 && arabicValidation2) || (!romanValidation1 && arabicValidation1 && romanValidation2 && !arabicValidation2)) // проверка инты+римляне
-        {
+        ArabicNumberValidationService validationArabic = new ArabicNumberValidationService();
+
+        boolean firstRomanNumberIsCorrect = validationRoman.isRomeNumberCorrect(line1);
+        boolean secondRomanNumberIsCorrect = validationRoman.isRomeNumberCorrect(line2);
+        boolean firstArabicNumberIsCorrect = validationArabic.arabicValidation(line1);
+        boolean secondArabicNumberIsCorrect = validationArabic.arabicValidation(line2);
+        // проверка инты+римляне
+        if ((firstRomanNumberIsCorrect && !firstArabicNumberIsCorrect && !secondRomanNumberIsCorrect && secondArabicNumberIsCorrect) || (!firstRomanNumberIsCorrect &&
+                firstArabicNumberIsCorrect && secondRomanNumberIsCorrect && !secondArabicNumberIsCorrect)) {
             throw new ArithmeticException(ERROR3);
         }
-        if ((!romanValidation1 && !arabicValidation1 && !romanValidation2 && !arabicValidation2) || (!romanValidation1 && arabicValidation1 && !romanValidation2 && !arabicValidation2) ||
-                (!romanValidation1 && !arabicValidation1 && !romanValidation2 && arabicValidation2) || (romanValidation1 && !arabicValidation1 && !romanValidation2 && !arabicValidation2) ||
-                (!romanValidation1 && !arabicValidation1 && romanValidation2 && !arabicValidation2)) // проверка на крокозябру
-        {
+        // проверка на крокозябру
+        if ((!firstRomanNumberIsCorrect && !firstArabicNumberIsCorrect && !secondRomanNumberIsCorrect && !secondArabicNumberIsCorrect) || (!firstRomanNumberIsCorrect && firstArabicNumberIsCorrect && !secondRomanNumberIsCorrect && !secondArabicNumberIsCorrect) ||
+                (!firstRomanNumberIsCorrect && !firstArabicNumberIsCorrect && !secondRomanNumberIsCorrect && secondArabicNumberIsCorrect) || (firstRomanNumberIsCorrect && !firstArabicNumberIsCorrect && !secondRomanNumberIsCorrect && !secondArabicNumberIsCorrect) ||
+                (!firstRomanNumberIsCorrect && !firstArabicNumberIsCorrect && secondRomanNumberIsCorrect && !secondArabicNumberIsCorrect)) {
             throw new ArithmeticException(ERROR2);
         }
-        if (arabicValidation2 && arabicValidation1) {
+
+        if (secondArabicNumberIsCorrect && firstArabicNumberIsCorrect) {
             return Integer.toString(calculiti.calculation(operator, Integer.parseInt(line1), Integer.parseInt(line2)));
         }
 
@@ -47,4 +52,5 @@ class CalculatorService {
         return arabicConvertRoman1.convert(itog);
     }
 }
+
 
