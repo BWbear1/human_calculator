@@ -13,7 +13,7 @@ class CalculatorService {
         System.out.println("Введите уравнение:");
         Scanner scanner = new Scanner(System.in);
         String[] input = scanner.nextLine().split(" ");
-        if (input.length < 2 || input.length > 3) {
+        if (input.length < 3 || input.length > 4) {
             throw new RuntimeException(ERROR1);
         }
         String line1 = input[0];

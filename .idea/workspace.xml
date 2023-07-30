@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64c12d32-658a-4997-af5f-33a4d2253deb" name="Changes" comment="мало что починиф, но нужен тупо сейф потому что я поломаф всё и кое-как починиф">
+    <list default="true" id="64c12d32-658a-4997-af5f-33a4d2253deb" name="Changes" comment="Даня не души х2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/src/CalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/CalculatorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/src/RomanConvertArabic.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/RomanConvertArabic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/src/RomanNumberValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/RomanNumberValidationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/CalculatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/CalculatorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/ArabicConvertRoman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/RomanConvertArabic.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690660942323</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Даня не души">
+      <created>1690727390955</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690727390955</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Даня не души х2">
+      <created>1690728130180</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690728130180</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,13 +150,15 @@
     <MESSAGE value="2" />
     <MESSAGE value="Все починиф только штуки с доступом не штукал вроде" />
     <MESSAGE value="мало что починиф, но нужен тупо сейф потому что я поломаф всё и кое-как починиф" />
-    <option name="LAST_COMMIT_MESSAGE" value="мало что починиф, но нужен тупо сейф потому что я поломаф всё и кое-как починиф" />
+    <MESSAGE value="Даня не души" />
+    <MESSAGE value="Даня не души х2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Даня не души х2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/calculator/src/ArabicConvertRoman.java</url>
+          <url>file://$PROJECT_DIR$/calculator/src/ArabicConvertToRoman.java</url>
           <line>33</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
