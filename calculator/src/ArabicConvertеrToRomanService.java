@@ -1,5 +1,5 @@
-class ArabicConvertToRoman {
-    String romanDigit(int number, String one, String five, String ten) {
+public class ArabicConvertеrToRomanService {
+    private String selectionOfRomanNumber(int number, String one, String five, String ten) {
         switch (number) {
             case 1:
                 return one;
@@ -27,13 +27,13 @@ class ArabicConvertToRoman {
 
     //часть 1 перевода арабов в римлян
 
-    String convert(int ITOG) {
+    public String convert(int itog) {
 
-        String romanOnes = romanDigit(ITOG % 10, "I", "V", "X");
-        ITOG /= 10;
-        String romanTens = romanDigit(ITOG % 10, "X", "L", "C");
-        ITOG /= 10;
-        String romanHundreds = romanDigit(ITOG % 10, "C", "D", "M");
+        String romanOnes = selectionOfRomanNumber(itog % 10, "I", "V", "X");
+        itog /= 10;
+        String romanTens = selectionOfRomanNumber(itog % 10, "X", "L", "C");
+        itog /= 10;
+        String romanHundreds = selectionOfRomanNumber(itog % 10, "C", "D", "M");
         return romanHundreds + romanTens + romanOnes;
 
     }
