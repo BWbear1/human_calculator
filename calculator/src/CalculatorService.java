@@ -58,8 +58,8 @@ class ValidationNumbers {
 
 class CalculationStart {
     String ERROR4 = "т.к. в римской системе счисления отсутствуют числа <=0";
-    RomanConvertArabic romanConvertArabic = new RomanConvertArabic();
-    ArabicConvertRoman arabicConvertRoman = new ArabicConvertRoman();
+    RomanConvertToArabic romanConvertToArabic = new RomanConvertToArabic();
+    ArabicConvertToRoman arabicConvertToRoman = new ArabicConvertToRoman();
     //RomanNumberValidationService validationRoman = new RomanNumberValidationService();
     ArabicNumberValidationService validationArabic = new ArabicNumberValidationService();
     String calculationStart(String line1, String operator, String line2) {
@@ -73,11 +73,11 @@ class CalculationStart {
         if (secondArabicNumberIsCorrect && firstArabicNumberIsCorrect) {
             return Integer.toString(calculiti.calculation(operator, Integer.parseInt(line1), Integer.parseInt(line2)));
         }
-            int itog = calculiti.calculation(operator, romanConvertArabic.convertRomanToArabicNumbers(line1), romanConvertArabic.convertRomanToArabicNumbers(line2));
+            int itog = calculiti.calculation(operator, romanConvertToArabic.convertRomanToArabicNumbers(line1), romanConvertToArabic.convertRomanToArabicNumbers(line2));
             if (itog <= 0) {
                 throw new ArithmeticException(ERROR4);
             }
-            return arabicConvertRoman.convert(itog);
+            return arabicConvertToRoman.convert(itog);
 
     }
 }

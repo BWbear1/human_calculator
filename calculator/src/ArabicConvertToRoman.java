@@ -1,4 +1,4 @@
-class ArabicConvertRoman {
+class ArabicConvertToRoman {
     String romanDigit(int number, String one, String five, String ten) {
         switch (number) {
             case 1:

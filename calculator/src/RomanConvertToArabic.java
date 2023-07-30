@@ -1,4 +1,4 @@
-class RomanConvertArabic {
+class RomanConvertToArabic {
     String ERROR2 = "т.к введены некорректные данные, допустимый диапазон значений [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10][I, II, III, IV, V, VI, VII, VIII, IX, X]";
     int[] DECIMAL = {100, 90, 50, 40, 10, 9, 5, 4, 1};
     String[] ROMAN = {"C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
