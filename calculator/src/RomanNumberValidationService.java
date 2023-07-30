@@ -6,9 +6,9 @@
 //} // проверка на то что число римское
 class RomanNumberValidationService {
 
-    private final static String[] WHITE_LIST_CHARACTER = {"I", "II", "III", "IV", "V", "VI","VII", "VIII", "IX", "X"};
+    private final static String[] WHITE_LIST_CHARACTER = {"I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"};
 
-    public boolean isRomeNumberCorrect (String number) {
+    public boolean isRomeNumberCorrect(String number) {
         return checkRomeNumberOnWhiteList(number);
     }
 

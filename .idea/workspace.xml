@@ -7,11 +7,11 @@
     <list default="true" id="64c12d32-658a-4997-af5f-33a4d2253deb" name="Changes" comment="мало что починиф, но нужен тупо сейф потому что я поломаф всё и кое-как починиф">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calculator/src/CalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/CalculatorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calculator/src/RomanConvertArabic.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/RomanConvertArabic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calculator/src/RomanNumberValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/RomanNumberValidationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/calculator/CalculatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/CalculatorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/RomanConvertArabic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/RomanConvertArabic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/RomanNumberValidationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/RomanNumberValidationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690654007630</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="мало что починиф, но нужен тупо сейф потому что я поломаф всё и кое-как починиф">
+      <created>1690660942323</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690660942323</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
