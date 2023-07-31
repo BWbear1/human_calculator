@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CalculatorService {
-    private final String NOT_A_MATHEMATICAL_OPERATION_ERROR = "т.к. введенная строка не является математической операцией";
+    private final static String NOT_A_MATHEMATICAL_OPERATION_ERROR = "т.к. введенная строка не является математической операцией";
 
     public String init() {
         System.out.println("Введите уравнение:");

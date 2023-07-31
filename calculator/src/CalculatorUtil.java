@@ -1,26 +1,24 @@
 public class CalculatorUtil {
 
-    private final String OPERATOR_ENTERED_INCORRECTLY_ERROR = "Т.к не коректно введен оператор в уравнении";
+    private final static String OPERATOR_ENTERED_INCORRECTLY_ERROR = "Т.к не коректно введен оператор в уравнении";
 
-    public int calculation(String operator, int number1, int number2) {
-        int result;
+    public int selectOperatorAndCalculate(String operator, int number1, int number2) {
         switch (operator) {
             case "+":
-                result = number1 + number2;
-                break;
-            case "-":
-                result = number1 - number2;
-                break;
-            case "*":
-                result = number1 * number2;
-                break;
-            case "/": {
-                result = number1 / number2;
+            {
+                return number1 + number2;
             }
-            break;
+            case "-":{
+                return number1 - number2;
+                }
+            case "*":{
+                return number1 * number2;
+                }
+            case "/": {
+                return number1 / number2;
+            }
             default:
                 throw new IllegalArgumentException(OPERATOR_ENTERED_INCORRECTLY_ERROR);
         }
-        return result;
     }
 }

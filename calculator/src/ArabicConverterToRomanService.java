@@ -26,7 +26,7 @@ public class ArabicConverterToRomanService {
     }
 
     //часть 1 перевода арабов в римлян
-    public String convert(int result) {
+    public String convertToRomanNumeral(int result) {
         String romanOnes = selectionOfRomanNumber(result % 10, "I", "V", "X");
         result /= 10;
         String romanTens = selectionOfRomanNumber(result % 10, "X", "L", "C");
