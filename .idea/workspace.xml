@@ -6,15 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="64c12d32-658a-4997-af5f-33a4d2253deb" name="Changes" comment="душот3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/src/ArabicConverterToRomanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/ArabicConverterToRomanService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calculator/src/ArabicNumberValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/ArabicNumberValidationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/src/ArabicNumberValidationService2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/src/CalculatorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/CalculatorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/src/CalculationStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/CalculationStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/src/CalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/CalculatorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/src/RomanConvertToArabic.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/RomanConvertToArabic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calculator/src/ValidationNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/ValidationNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/ArabicNumberValidationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/ArabicNumberValidationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/ArabicNumberValidationService2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/CalculationStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/CalculationStart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/ValidationNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/ValidationNumbers.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690776346620</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="душот3">
+      <created>1690776793279</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1690776793279</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -11,15 +11,15 @@ public class CalculatorService {
             throw new RuntimeException(NOT_A_MATHEMATICAL_OPERATION_ERROR);
         }
 
-        String line1 = input[0];
+        String firstNumber = input[0];
         String operator = input[1];
-        String line2 = input[2];
+        String secondNumber = input[2];
 
         ValidationNumbers numbersCheck = new ValidationNumbers();
-        numbersCheck.validationNumbers(line1, line2);
+        numbersCheck.validationNumbers(firstNumber, secondNumber);
         CalculationStart result = new CalculationStart();
 
-        return result.calculationStart(line1, operator, line2);
+        return result.calculationStart(firstNumber, operator, secondNumber);
     }
 }
 

@@ -4,16 +4,16 @@ public class CalculationStart {
     public static RomanConvertToArabic romanConvertToArabic = new RomanConvertToArabic();
     public static ArabicConverterToRomanService arabicConverterToRomanService = new ArabicConverterToRomanService();
     public static ArabicNumberValidationService validationArabic = new ArabicNumberValidationService();
+    CalculatorUtil calculiti = new CalculatorUtil();
 
-    public String calculationStart(String line1, String operator, String line2) {
-        CalculatorUtil calculiti = new CalculatorUtil();
-        boolean firstArabicNumberIsCorrect = validationArabic.arabicNumberIsCorrect(line1);
-        boolean secondArabicNumberIsCorrect = validationArabic.arabicNumberIsCorrect(line2);
+    public String calculationStart(String firstNumber, String operator, String secondNumber) {
+        boolean firstArabicNumberIsCorrect = validationArabic.arabicNumberIsCorrect(firstNumber);
+        boolean secondArabicNumberIsCorrect = validationArabic.arabicNumberIsCorrect(secondNumber);
 
         if (secondArabicNumberIsCorrect && firstArabicNumberIsCorrect) {
-            return Integer.toString(calculiti.calculation(operator, Integer.parseInt(line1), Integer.parseInt(line2)));
+            return Integer.toString(calculiti.calculation(operator, Integer.parseInt(firstNumber), Integer.parseInt(secondNumber)));
         }
-        int result = calculiti.calculation(operator, romanConvertToArabic.convertRomanToArabicNumbers(line1), romanConvertToArabic.convertRomanToArabicNumbers(line2));
+        int result = calculiti.calculation(operator, romanConvertToArabic.convertRomanToArabicNumbers(firstNumber), romanConvertToArabic.convertRomanToArabicNumbers(secondNumber));
 
         if (result <= 0) {
             throw new ArithmeticException(NO_ZERO_IN_THE_ROMAN_NUMERAL_SYSTEM_ERROR);

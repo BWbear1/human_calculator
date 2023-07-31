@@ -3,16 +3,16 @@ public class RomanConvertToArabic {
     int[] ARABIC_NUMERALS = {100, 90, 50, 40, 10, 9, 5, 4, 1};
     String[] ROMAN_NUMERALS = {"C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
 
-    public int convertRomanToArabicNumbers(String line1) { // перевод римлян в арабов
-        int number1 = 0;
+    public int convertRomanToArabicNumbers(String number1) { // перевод римлян в арабов
+        int number2 = 0;
         for (int i = 0; i < ARABIC_NUMERALS.length; i++) {
-            while (line1.indexOf(ROMAN_NUMERALS[i]) == 0) {
-                number1 += ARABIC_NUMERALS[i];
-                line1 = line1.substring(ROMAN_NUMERALS[i].length());
+            while (number1.indexOf(ROMAN_NUMERALS[i]) == 0) {
+                number2 += ARABIC_NUMERALS[i];
+                number1 = number1.substring(ROMAN_NUMERALS[i].length());
             }
         }
-        if (line1 == null || line1.isEmpty() || line1.trim().isEmpty()) {
-            return number1;
+        if (number1 == null || number1.isEmpty() || number1.trim().isEmpty()) {
+            return number2;
         } else {
             throw new RuntimeException(INCORRECT_DATA_ENTERED_ERROR);
         }
