@@ -1,7 +1,6 @@
 public class CalculatorUtil {
-    private final String OPERATOR_ENTERED_INCORRECTLY = "Т.к не коректно введен оператор в уравнении";
+    private final String OPERATOR_ENTERED_INCORRECTLY_ERROR = "Т.к не коректно введен оператор в уравнении";
 
-    //считалочка
     public int calculation(String operator, int number1, int number2) {
         int itog;
         switch (operator) {
@@ -19,7 +18,7 @@ public class CalculatorUtil {
             }
             break;
             default:
-                throw new IllegalArgumentException(OPERATOR_ENTERED_INCORRECTLY);
+                throw new IllegalArgumentException(OPERATOR_ENTERED_INCORRECTLY_ERROR);
         }
         return itog;
     }
