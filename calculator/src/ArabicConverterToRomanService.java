@@ -1,4 +1,5 @@
 public class ArabicConverterToRomanService {
+
     private String selectionOfRomanNumber(int number, String one, String five, String ten) {
         switch (number) {
             case 1:
@@ -23,6 +24,7 @@ public class ArabicConverterToRomanService {
                 return "";
         }
     }
+
     //часть 1 перевода арабов в римлян
     public String convert(int result) {
         String romanOnes = selectionOfRomanNumber(result % 10, "I", "V", "X");

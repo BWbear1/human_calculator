@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64c12d32-658a-4997-af5f-33a4d2253deb" name="Changes" comment="душот">
+    <list default="true" id="64c12d32-658a-4997-af5f-33a4d2253deb" name="Changes" comment="душот3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/src/ArabicConverterToRomanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/ArabicConverterToRomanService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/src/ArabicNumberValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/ArabicNumberValidationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/src/ArabicNumberValidationService2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/src/CalculatorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/CalculatorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/src/ValidationNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/ValidationNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/calculator/ArabicNumberValidationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/ArabicNumberValidationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/ArabicNumberValidationService2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/calculator/CalculationStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/CalculationStart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/CalculatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/CalculatorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/CalculatorUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/CalculatorUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/RomanConvertToArabic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/RomanConvertToArabic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/RomanNumberValidationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/RomanNumberValidationService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/calculator/ValidationNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/ValidationNumbers.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690776066504</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="душот">
+      <created>1690776263040</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690776263040</updated>
+    </task>
+    <task id="LOCAL-00015" summary="душот3">
+      <created>1690776346620</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1690776346620</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,14 +204,15 @@
     <MESSAGE value="душнила" />
     <MESSAGE value="итог поменял" />
     <MESSAGE value="душот" />
-    <option name="LAST_COMMIT_MESSAGE" value="душот" />
+    <MESSAGE value="душот3" />
+    <option name="LAST_COMMIT_MESSAGE" value="душот3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/calculator/src/ArabicConverterToRomanService.java</url>
-          <line>33</line>
+          <line>35</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

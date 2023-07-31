@@ -1,7 +1,7 @@
 public class ValidationNumbers {
     RomanNumberValidationService validationRoman = new RomanNumberValidationService();
     ArabicNumberValidationService validationArabic = new ArabicNumberValidationService();
-    ArabicNumberValidationService2 validationArabic2 = new ArabicNumberValidationService2();
+    ArabicNumberValidationService validationArabic2 = new ArabicNumberValidationService();
     private final String INCORRECT_DATA_ENTERED_ERROR = "т.к введены некорректные данные, допустимый диапазон значений [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10][I, II, III, IV, V, VI, VII, VIII, IX, X]";
     private final String DIFFERENT_NUMBER_SYSTEMS_ERROR = "т.к используются одновременно разные системы счисления";
 
