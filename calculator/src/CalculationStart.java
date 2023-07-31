@@ -1,4 +1,5 @@
 public class CalculationStart {
+
     private final String NO_ZERO_IN_THE_ROMAN_NUMERAL_SYSTEM_ERROR = "т.к. в римской системе счисления отсутствуют числа <=0";
     public static RomanConvertToArabic romanConvertToArabic = new RomanConvertToArabic();
     public static ArabicConverterToRomanService arabicConverterToRomanService = new ArabicConverterToRomanService();
