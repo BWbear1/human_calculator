@@ -23,8 +23,8 @@ public class ValidationNumbers {
             throw new ArithmeticException(DIFFERENT_NUMBER_SYSTEMS_ERROR);
         }
 
-        boolean firstArabicNumberIsCorrect = validationArabic.arabicNumberIsCorrect(firstNumber);
-        boolean secondArabicNumberIsCorrect = validationArabic.arabicNumberIsCorrect(secondNumber);
+        boolean firstArabicNumberIsCorrect = validationArabic.arabicNumberIsCorrectForFulfillTheTaskConditionsForDifferentNumberSystemsScyko(firstNumber);
+        boolean secondArabicNumberIsCorrect = validationArabic.arabicNumberIsCorrectForFulfillTheTaskConditionsForDifferentNumberSystemsScyko(secondNumber);
 
         if ((!firstRomanNumberIsCorrect && !firstArabicNumberIsCorrect && !secondRomanNumberIsCorrect && !secondArabicNumberIsCorrect) ||
                 (!firstRomanNumberIsCorrect && firstArabicNumberIsCorrect && !secondRomanNumberIsCorrect && !secondArabicNumberIsCorrect) ||

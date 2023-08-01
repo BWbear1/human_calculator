@@ -7,15 +7,27 @@ public class CalculatorUtil {
         switch (operator) {
             case "+":
             {
+                if (number1 > 10 || number1 < 2 || number2 > 10 || number2 < 1) {
+                    throw new ArithmeticException(INCORRECT_DATA_ENTERED_ERROR);
+                }
                 return number1 + number2;
             }
             case "-":{
+                if (number1 > 10 || number1 < 2 || number2 > 10 || number2 < 1) {
+                    throw new ArithmeticException(INCORRECT_DATA_ENTERED_ERROR);
+                }
                 return number1 - number2;
                 }
             case "*":{
+                if (number1 > 10 || number1 < 2 || number2 > 10 || number2 < 1) {
+                    throw new ArithmeticException(INCORRECT_DATA_ENTERED_ERROR);
+                }
                 return number1 * number2;
                 }
             case "/": {
+                if (number1 > 10 || number1 < 2 || number2 > 10 || number2 < 1) {
+                    throw new ArithmeticException(INCORRECT_DATA_ENTERED_ERROR);
+                }
                 return number1 / number2;
             }
             default:
