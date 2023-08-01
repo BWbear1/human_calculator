@@ -7,8 +7,8 @@ public class CalculationStart {
     CalculatorUtil calculiti = new CalculatorUtil();
 
     public String calculationStart(String firstNumber, String operator, String secondNumber) {
-        boolean firstArabicNumberIsCorrect = validationArabic.arabicNumberIsCorrect(firstNumber);
-        boolean secondArabicNumberIsCorrect = validationArabic.arabicNumberIsCorrect(secondNumber);
+        boolean firstArabicNumberIsCorrect = validationArabic.arabicNumberIsCorrectForFulfillTheTaskConditionsForDifferentNumberSystemsScyko(firstNumber);
+        boolean secondArabicNumberIsCorrect = validationArabic.arabicNumberIsCorrectForFulfillTheTaskConditionsForDifferentNumberSystemsScyko(secondNumber);
 
         if (secondArabicNumberIsCorrect && firstArabicNumberIsCorrect) {
             return Integer.toString(calculiti.selectOperatorAndCalculate(operator, Integer.parseInt(firstNumber), Integer.parseInt(secondNumber)));
