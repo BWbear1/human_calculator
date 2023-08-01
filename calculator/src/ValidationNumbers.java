@@ -11,9 +11,9 @@ public class ValidationNumbers {
         boolean firstRomanNumberIsCorrect = validationRoman.isRomeNumberCorrect(firstNumber);
         boolean secondRomanNumberIsCorrect = validationRoman.isRomeNumberCorrect(secondNumber);
         boolean firstArabicNumberIsCorrectForFulfillTheTaskConditionsForDifferentNumberSystemsScyko =
-                validationArabicForFulfillTheTaskConditionsForDifferentNumberSystemsScyko.arabicNumberIsCorrectForFulfillTheTaskConditionsForDifferentNumberSystemsScyko(firstNumber);
+                validationArabicForFulfillTheTaskConditionsForDifferentNumberSystemsScyko.arabicNumberIsCorrectForFulfillTheTaskConditionsForDifferentNumberSystemsScyko(firstNumber);///
         boolean secondArabicNumberIsCorrectForFulfillTheTaskConditionsForDifferentNumberSystemsScyko =
-                validationArabicForFulfillTheTaskConditionsForDifferentNumberSystemsScyko.arabicNumberIsCorrectForFulfillTheTaskConditionsForDifferentNumberSystemsScyko(secondNumber);
+                validationArabicForFulfillTheTaskConditionsForDifferentNumberSystemsScyko.arabicNumberIsCorrectForFulfillTheTaskConditionsForDifferentNumberSystemsScyko(secondNumber);////
 
         if ((firstRomanNumberIsCorrect && !firstArabicNumberIsCorrectForFulfillTheTaskConditionsForDifferentNumberSystemsScyko &&
                 !secondRomanNumberIsCorrect && secondArabicNumberIsCorrectForFulfillTheTaskConditionsForDifferentNumberSystemsScyko) ||

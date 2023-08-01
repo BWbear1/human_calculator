@@ -15,11 +15,11 @@ public class ArabicNumberValidationService {
         }
     }
 
-    boolean arabicNumberIsCorrectForFulfillTheTaskConditionsForDifferentNumberSystemsScyko(String number1) {
+    public boolean arabicNumberIsCorrectForFulfillTheTaskConditionsForDifferentNumberSystemsScyko(String number1) {
         int numberForCheck;
         try {
             numberForCheck = Integer.parseInt(number1);
-            String[] massiv = number1.split("");
+            //String[] massiv = number1.split("");
             return true;
         } catch (NumberFormatException e) {
             return false;

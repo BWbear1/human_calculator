@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64c12d32-658a-4997-af5f-33a4d2253deb" name="Changes" comment="смайликоф тут нет">
+    <list default="true" id="64c12d32-658a-4997-af5f-33a4d2253deb" name="Changes" comment="даник всё">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/src/ArabicConverterToRomanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/ArabicConverterToRomanService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/src/ArabicNumberValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/ArabicNumberValidationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/src/CalculationStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/CalculationStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/src/CalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/CalculatorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calculator/src/CalculatorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/CalculatorUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/src/RomanConvertToArabic.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/RomanConvertToArabic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calculator/src/ValidationNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/src/ValidationNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -193,7 +188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690778084953</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="даник всё">
+      <created>1690836173260</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1690836173260</updated>
+    </task>
+    <task id="LOCAL-00019" summary="даник всё">
+      <created>1690906463524</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1690906463524</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +227,8 @@
     <MESSAGE value="душот" />
     <MESSAGE value="душот3" />
     <MESSAGE value="смайликоф тут нет" />
-    <option name="LAST_COMMIT_MESSAGE" value="смайликоф тут нет" />
+    <MESSAGE value="даник всё" />
+    <option name="LAST_COMMIT_MESSAGE" value="даник всё" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
